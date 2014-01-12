@@ -1,0 +1,14 @@
+	public String lel(String s){
+		
+		String[] parts = s.split("#");
+		String part2 = parts[1];
+		String part3 = parts[2];
+		if(part2.equals(part3)) return part2;
+		
+		return ("Give again your pw");	
+		
+	}
+	
+	//to trexoume me ton tropo pou leei sto webcalculator
+	//proypo8etei oti to pairnoume sth morfh x#y#z kai sou gyrnaei to y=z an einai idia alliws minima 
+	//"give again pw" an einai diaforetika. esy mporeis na to vazeis mexri y=z
