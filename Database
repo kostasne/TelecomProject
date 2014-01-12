@@ -1,0 +1,22 @@
+create database POISandUSERS;
+
+create table UserID(id int(11) unsigned auto_increment primary key not null, 
+username varchar(30) not null, 
+password varchar(20) not null, 
+current_set_pros_total_sets double precision(8,7) not null, 
+current_get_pros_total_gets double precision(8,7) not null, 
+set_Data_pros_T double precision(8,7) not null, 
+get_Data_pros_T double precision(8,7) not null, 
+total_POIs_set int(5) not null);
+
+
+create table PoiID(id int(11) unsigned auto_increment primary key not null, 
+name varchar(30) not null, 
+Type varchar(20) not null, 
+PositionX int(5) not null, 
+PositionY int(5) not null, 
+POI_stats double precision(8,7) not null);
+
+show tables; //deixnei onomastika poious pinakes exoume
+describe table UserID; //deixnei tn pinaka userID
+describe table PoiID; //to idio gia ton poiid
